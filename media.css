@@ -1,0 +1,38 @@
+@media (max-width:1100px){
+.header__socials{
+    display: none;
+}
+.fix__img{
+    width: 100px;
+    height: 100px;
+  
+}
+.footer__social{
+    display: none;
+}
+}
+
+
+
+@media (max-width:1000px){
+    .fix__swipper{
+      display: block;
+     
+    }
+    .fix__wrapper{
+        display: none;
+    }
+    .fix__card{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .fix__img{
+        width: 300px;
+        height: 300px;
+        border-radius: 0%;
+        margin-bottom: 20px;
+    }
+    } 
+    
+
+
